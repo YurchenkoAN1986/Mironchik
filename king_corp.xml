@@ -1,0 +1,3027 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<king_corp>
+  <departments>
+    <department id="10">
+      <name>ACCOUNTING</name>
+      <location>NEW YORK</location>
+      <employees>
+        <employee id="7782">
+          <name>CAROL F. CLARK</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-06-09</hire_date>
+          <salary>2450.00</salary>
+        </employee>
+        <employee id="7839">
+          <name>FRANCIS A. KING</name>
+          <function>PRESIDENT</function>
+          <hire_date>1985-11-17</hire_date>
+          <salary>5000.00</salary>
+        </employee>
+        <employee id="7934">
+          <name>BARBARA M. MILLER</name>
+          <manager_id>7782</manager_id>
+          <function>CLERK</function>
+          <hire_date>1986-01-23</hire_date>
+          <salary>1300.00</salary>
+        </employee>
+        <employee id="8001">
+          <name>JAMES B. KING</name>
+          <manager_id>7560</manager_id>
+          <function>CLERK</function>
+          <hire_date>1990-01-12</hire_date>
+          <salary>2500.00</salary>
+          <customer id="100"/>
+        </employee>
+      </employees>
+    </department>
+    <department id="12">
+      <name>RESEARCH</name>
+      <location>NEW YORK</location>
+      <employees>
+        <employee id="7569">
+          <name>CHRIS L. ALBERTS</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-04-06</hire_date>
+          <salary>3000.00</salary>
+        </employee>
+        <employee id="7799">
+          <name>MATTHEW G. FISHER</name>
+          <manager_id>7569</manager_id>
+          <function>ANALYST</function>
+          <hire_date>1986-12-12</hire_date>
+          <salary>3000.00</salary>
+        </employee>
+        <employee id="7916">
+          <name>GRACE M. ROBERTS</name>
+          <manager_id>7569</manager_id>
+          <function>ANALYST</function>
+          <hire_date>1987-01-04</hire_date>
+          <salary>2875.00</salary>
+        </employee>
+        <employee id="7919">
+          <name>MICHAEL A. DOUGLAS</name>
+          <manager_id>7799</manager_id>
+          <function>CLERK</function>
+          <hire_date>1987-01-04</hire_date>
+          <salary>800.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="13">
+      <name>SALES</name>
+      <location>NEW YORK</location>
+      <employees>
+        <employee id="7505">
+          <name>JEAN K. DOYLE</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-04-04</hire_date>
+          <salary>2850.00</salary>
+        </employee>
+        <employee id="7555">
+          <name>DANIEL T. PETERS</name>
+          <manager_id>7505</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-03-31</hire_date>
+          <salary>1250.00</salary>
+          <commission>300.00</commission>
+          <customer id="226"/>
+          <customer id="228"/>
+        </employee>
+        <employee id="7557">
+          <name>KAREN P. SHAW</name>
+          <manager_id>7505</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-04-02</hire_date>
+          <salary>1250.00</salary>
+          <commission>1200.00</commission>
+          <customer id="201"/>
+          <customer id="203"/>
+          <customer id="205"/>
+          <customer id="206"/>
+        </employee>
+        <employee id="7600">
+          <name>RAYMOND Y. PORTER</name>
+          <manager_id>7505</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-04-15</hire_date>
+          <salary>1250.00</salary>
+          <commission>900.00</commission>
+          <customer id="212"/>
+          <customer id="213"/>
+        </employee>
+        <employee id="7950">
+          <name>ALICE B. JENSEN</name>
+          <manager_id>7505</manager_id>
+          <function>CLERK</function>
+          <hire_date>1987-01-15</hire_date>
+          <salary>750.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="14">
+      <name>OPERATIONS</name>
+      <location>NEW YORK</location>
+      <employees>
+        <employee id="7507">
+          <name>LESLIE D. BAKER</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-06-10</hire_date>
+          <salary>2200.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="20">
+      <name>RESEARCH</name>
+      <location>DALLAS</location>
+      <employees>
+        <employee id="7369">
+          <name>JOHN Q. SMITH</name>
+          <manager_id>7902</manager_id>
+          <function>CLERK</function>
+          <hire_date>1984-12-17</hire_date>
+          <salary>800.00</salary>
+        </employee>
+        <employee id="7566">
+          <name>TERRY M. JONES</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-04-02</hire_date>
+          <salary>2975.00</salary>
+        </employee>
+        <employee id="7788">
+          <name>DONALD T. SCOTT</name>
+          <manager_id>7566</manager_id>
+          <function>ANALYST</function>
+          <hire_date>1986-12-09</hire_date>
+          <salary>3000.00</salary>
+        </employee>
+        <employee id="7876">
+          <name>DIANE G. ADAMS</name>
+          <manager_id>7788</manager_id>
+          <function>CLERK</function>
+          <hire_date>1987-01-12</hire_date>
+          <salary>1100.00</salary>
+        </employee>
+        <employee id="7902">
+          <name>JENNIFER D. FORD</name>
+          <manager_id>7566</manager_id>
+          <function>ANALYST</function>
+          <hire_date>1985-12-03</hire_date>
+          <salary>3000.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="23">
+      <name>SALES</name>
+      <location>DALLAS</location>
+      <employees>
+        <employee id="7506">
+          <name>LYNN S. DENNIS</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-05-15</hire_date>
+          <salary>2750.00</salary>
+        </employee>
+        <employee id="7560">
+          <name>SARAH S. DUNCAN</name>
+          <manager_id>7506</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-05-31</hire_date>
+          <salary>1250.00</salary>
+          <customer id="204"/>
+          <customer id="208"/>
+        </employee>
+        <employee id="7564">
+          <name>GREGORY J. LANGE</name>
+          <manager_id>7506</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-06-01</hire_date>
+          <salary>1250.00</salary>
+          <commission>300.00</commission>
+          <customer id="214"/>
+          <customer id="217"/>
+        </employee>
+        <employee id="7789">
+          <name>LIVIA N. WEST</name>
+          <manager_id>7506</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-04-04</hire_date>
+          <salary>1500.00</salary>
+          <commission>1000.00</commission>
+          <customer id="221"/>
+          <customer id="222"/>
+          <customer id="224"/>
+          <customer id="225"/>
+        </employee>
+        <employee id="7954">
+          <name>JAMES T. MURRAY</name>
+          <manager_id>7506</manager_id>
+          <function>CLERK</function>
+          <hire_date>1987-01-16</hire_date>
+          <salary>750.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="24">
+      <name>OPERATIONS</name>
+      <location>DALLAS</location>
+      <employees>
+        <employee id="7609">
+          <name>RICHARD M. LEWIS</name>
+          <manager_id>7507</manager_id>
+          <function>STAFF</function>
+          <hire_date>1985-04-16</hire_date>
+          <salary>1800.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="30">
+      <name>SALES</name>
+      <location>CHICAGO</location>
+      <employees>
+        <employee id="7499">
+          <name>KEVIN J. ALLEN</name>
+          <manager_id>7698</manager_id>
+          <function>STAFF</function>
+          <hire_date>1985-02-20</hire_date>
+          <salary>1600.00</salary>
+          <commission>300.00</commission>
+          <customer id="104"/>
+          <customer id="107"/>
+        </employee>
+        <employee id="7521">
+          <name>CYNTHIA D. WARD</name>
+          <manager_id>7698</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-02-22</hire_date>
+          <salary>1250.00</salary>
+          <commission>500.00</commission>
+          <customer id="103"/>
+          <customer id="106"/>
+        </employee>
+        <employee id="7654">
+          <name>KENNETH J. MARTIN</name>
+          <manager_id>7698</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-09-28</hire_date>
+          <salary>1250.00</salary>
+          <commission>1400.00</commission>
+          <customer id="102"/>
+          <customer id="215"/>
+        </employee>
+        <employee id="7698">
+          <name>MARION S. BLAKE</name>
+          <manager_id>7839</manager_id>
+          <function>MANAGER</function>
+          <hire_date>1985-05-01</hire_date>
+          <salary>2850.00</salary>
+        </employee>
+        <employee id="7844">
+          <name>MARY A. TURNER</name>
+          <manager_id>7698</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-09-08</hire_date>
+          <salary>1500.00</salary>
+          <commission>0.00</commission>
+          <customer id="105"/>
+          <customer id="108"/>
+        </employee>
+        <employee id="7900">
+          <name>FRED S. JAMES</name>
+          <manager_id>7698</manager_id>
+          <function>CLERK</function>
+          <hire_date>1985-12-03</hire_date>
+          <salary>950.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="34">
+      <name>OPERATIONS</name>
+      <location>CHICAGO</location>
+      <employees>
+        <employee id="7676">
+          <name>DENISE D. SOMMERS</name>
+          <manager_id>7507</manager_id>
+          <function>STAFF</function>
+          <hire_date>1985-04-19</hire_date>
+          <salary>1850.00</salary>
+        </employee>
+      </employees>
+    </department>
+    <department id="40">
+      <name>OPERATIONS</name>
+      <location>BOSTON</location>
+    </department>
+    <department id="43">
+      <name>SALES</name>
+      <location>BOSTON</location>
+      <employees>
+        <employee id="7820">
+          <name>PAUL S. ROSS</name>
+          <manager_id>7505</manager_id>
+          <function>SALESPERSON</function>
+          <hire_date>1985-06-01</hire_date>
+          <salary>1300.00</salary>
+          <commission>800.00</commission>
+          <customer id="202"/>
+          <customer id="207"/>
+          <customer id="211"/>
+          <customer id="216"/>
+          <customer id="218"/>
+          <customer id="223"/>
+          <customer id="227"/>
+        </employee>
+      </employees>
+    </department>
+  </departments>
+  <customers>
+    <customer id="100">
+      <name>JOCKSPORTS</name>
+      <city>BELMONT</city>
+      <state>CA</state>
+      <salesperson>8001</salesperson>
+      <comment>Very friendly people to work with -- sales rep likes to be called Mike.</comment>
+      <order id="606">
+        <order_date>1990-07-14</order_date>
+        <ship_date>1990-07-30</ship_date>
+        <total>3.40</total>
+        <item>
+          <product_id>102130</product_id>
+          <price>3.40</price>
+          <quantity>1</quantity>
+          <total>3.40</total>
+        </item>
+      </order>
+      <order id="609">
+        <order_date>1990-08-01</order_date>
+        <ship_date>1990-08-15</ship_date>
+        <total>102.50</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>40.00</price>
+          <quantity>1</quantity>
+          <total>40.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.50</price>
+          <quantity>5</quantity>
+          <total>12.50</total>
+        </item>
+        <item>
+          <product_id>100890</product_id>
+          <price>50.00</price>
+          <quantity>1</quantity>
+          <total>50.00</total>
+        </item>
+      </order>
+      <order id="620">
+        <order_date>1991-03-12</order_date>
+        <ship_date>1991-03-12</ship_date>
+        <total>4450.00</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>35.00</price>
+          <quantity>10</quantity>
+          <total>350.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>1000</quantity>
+          <total>2400.00</total>
+        </item>
+        <item>
+          <product_id>102130</product_id>
+          <price>3.40</price>
+          <quantity>500</quantity>
+          <total>1700.00</total>
+        </item>
+      </order>
+      <order id="621">
+        <order_date>1991-03-15</order_date>
+        <ship_date>1991-04-01</ship_date>
+        <total>730.00</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>10</quantity>
+          <total>450.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>100</quantity>
+          <total>280.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="101">
+      <name>TKB SPORT SHOP</name>
+      <city>REDWOOD CITY</city>
+      <state>CA</state>
+      <salesperson>8002</salesperson>
+      <comment>Rep called 5/8 about change in order - contact shipping.</comment>
+      <order id="610">
+        <order_date>1991-01-07</order_date>
+        <ship_date>1991-01-08</ship_date>
+        <total>101.40</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>35.00</price>
+          <quantity>1</quantity>
+          <total>35.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>3</quantity>
+          <total>8.40</total>
+        </item>
+        <item>
+          <product_id>100890</product_id>
+          <price>58.00</price>
+          <quantity>1</quantity>
+          <total>58.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="102">
+      <name>VOLLYRITE</name>
+      <city>BURLINGAME</city>
+      <state>CA</state>
+      <salesperson>7654</salesperson>
+      <comment>Company doing heavy promotion beginning 10/89. Prepare for large orders during w</comment>
+      <order id="602">
+        <order_date>1990-06-05</order_date>
+        <ship_date>1990-06-20</ship_date>
+        <total>56.00</total>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>20</quantity>
+          <total>56.00</total>
+        </item>
+      </order>
+      <order id="603">
+        <order_date>1990-06-05</order_date>
+        <ship_date>1990-06-05</ship_date>
+        <total>224.00</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>32.00</price>
+          <quantity>7</quantity>
+          <total>224.00</total>
+        </item>
+      </order>
+      <order id="611">
+        <order_date>1991-01-11</order_date>
+        <ship_date>1991-01-11</ship_date>
+        <total>45.00</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>1</quantity>
+          <total>45.00</total>
+        </item>
+      </order>
+      <order id="614">
+        <order_date>1991-02-01</order_date>
+        <ship_date>1991-02-05</ship_date>
+        <total>23940.00</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>35.00</price>
+          <quantity>444</quantity>
+          <total>15540.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>1000</quantity>
+          <total>2800.00</total>
+        </item>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.60</price>
+          <quantity>1000</quantity>
+          <total>5600.00</total>
+        </item>
+      </order>
+      <order id="618">
+        <order_date>1991-02-15</order_date>
+        <ship_date>1991-03-06</ship_date>
+        <total>3083.00</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>35.00</price>
+          <quantity>23</quantity>
+          <total>805.00</total>
+        </item>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>50</quantity>
+          <total>2250.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>10</quantity>
+          <total>28.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="103">
+      <name>JUST TENNIS</name>
+      <city>BURLINGAME</city>
+      <state>CA</state>
+      <salesperson>7521</salesperson>
+      <comment>Contact rep about new line of tennis rackets.</comment>
+      <order id="600">
+        <order_date>1990-05-01</order_date>
+        <ship_date>1990-05-29</ship_date>
+        <total>42.00</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>42.00</price>
+          <quantity>1</quantity>
+          <total>42.00</total>
+        </item>
+      </order>
+      <order id="616">
+        <order_date>1991-02-03</order_date>
+        <ship_date>1991-02-10</ship_date>
+        <total>764.00</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>10</quantity>
+          <total>450.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>50</quantity>
+          <total>140.00</total>
+        </item>
+        <item>
+          <product_id>100890</product_id>
+          <price>58.00</price>
+          <quantity>2</quantity>
+          <total>116.00</total>
+        </item>
+        <item>
+          <product_id>102130</product_id>
+          <price>3.40</price>
+          <quantity>10</quantity>
+          <total>34.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>10</quantity>
+          <total>24.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="104">
+      <name>EVERY MOUNTAIN</name>
+      <city>CUPERTINO</city>
+      <state>CA</state>
+      <salesperson>7499</salesperson>
+      <comment>Customer with high market share (23%) due to aggressive advertising.</comment>
+      <order id="607">
+        <order_date>1990-07-18</order_date>
+        <ship_date>1990-07-18</ship_date>
+        <total>5.60</total>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.60</price>
+          <quantity>1</quantity>
+          <total>5.60</total>
+        </item>
+      </order>
+      <order id="608">
+        <order_date>1990-07-25</order_date>
+        <ship_date>1990-07-25</ship_date>
+        <total>35.20</total>
+        <item>
+          <product_id>101860</product_id>
+          <price>24.00</price>
+          <quantity>1</quantity>
+          <total>24.00</total>
+        </item>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.60</price>
+          <quantity>2</quantity>
+          <total>11.20</total>
+        </item>
+      </order>
+      <order id="612">
+        <order_date>1991-01-15</order_date>
+        <ship_date>1991-01-20</ship_date>
+        <total>5860.00</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>30.00</price>
+          <quantity>100</quantity>
+          <total>3000.00</total>
+        </item>
+        <item>
+          <product_id>100861</product_id>
+          <price>40.50</price>
+          <quantity>20</quantity>
+          <total>810.00</total>
+        </item>
+        <item>
+          <product_id>101863</product_id>
+          <price>10.00</price>
+          <quantity>150</quantity>
+          <total>1500.00</total>
+        </item>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.50</price>
+          <quantity>100</quantity>
+          <total>550.00</total>
+        </item>
+      </order>
+      <order id="619">
+        <order_date>1991-02-22</order_date>
+        <ship_date>1991-03-04</ship_date>
+        <total>1260.00</total>
+        <item>
+          <product_id>200380</product_id>
+          <price>4.00</price>
+          <quantity>100</quantity>
+          <total>400.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>100</quantity>
+          <total>240.00</total>
+        </item>
+        <item>
+          <product_id>102130</product_id>
+          <price>3.40</price>
+          <quantity>100</quantity>
+          <total>340.00</total>
+        </item>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.60</price>
+          <quantity>50</quantity>
+          <total>280.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="105">
+      <name>K + T SPORTS</name>
+      <city>SANTA CLARA</city>
+      <state>CA</state>
+      <salesperson>7844</salesperson>
+      <comment>Tends to order large amounts of merchandise at once. Accounting is considering r</comment>
+      <order id="617">
+        <order_date>1991-02-05</order_date>
+        <ship_date>1991-03-03</ship_date>
+        <total>46370.00</total>
+        <item>
+          <product_id>100860</product_id>
+          <price>35.00</price>
+          <quantity>50</quantity>
+          <total>1750.00</total>
+        </item>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>100</quantity>
+          <total>4500.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>500</quantity>
+          <total>1400.00</total>
+        </item>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.60</price>
+          <quantity>500</quantity>
+          <total>2800.00</total>
+        </item>
+        <item>
+          <product_id>100890</product_id>
+          <price>58.00</price>
+          <quantity>500</quantity>
+          <total>29000.00</total>
+        </item>
+        <item>
+          <product_id>101860</product_id>
+          <price>24.00</price>
+          <quantity>100</quantity>
+          <total>2400.00</total>
+        </item>
+        <item>
+          <product_id>101863</product_id>
+          <price>12.50</price>
+          <quantity>200</quantity>
+          <total>2500.00</total>
+        </item>
+        <item>
+          <product_id>102130</product_id>
+          <price>3.40</price>
+          <quantity>100</quantity>
+          <total>340.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>200</quantity>
+          <total>480.00</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>4.00</price>
+          <quantity>300</quantity>
+          <total>1200.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="106">
+      <name>SHAPE UP</name>
+      <city>PALO ALTO</city>
+      <state>CA</state>
+      <salesperson>7521</salesperson>
+      <comment>Support intensive. Orders small amounts (&lt; 800) of merchandise at a time.</comment>
+      <order id="601">
+        <order_date>1990-05-01</order_date>
+        <ship_date>1990-05-30</ship_date>
+        <total>60.80</total>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>12</quantity>
+          <total>28.80</total>
+        </item>
+        <item>
+          <product_id>100860</product_id>
+          <price>32.00</price>
+          <quantity>1</quantity>
+          <total>32.00</total>
+        </item>
+      </order>
+      <order id="604">
+        <order_date>1990-06-15</order_date>
+        <ship_date>1990-06-30</ship_date>
+        <total>642.00</total>
+        <item>
+          <product_id>100890</product_id>
+          <price>58.00</price>
+          <quantity>3</quantity>
+          <total>174.00</total>
+        </item>
+        <item>
+          <product_id>100861</product_id>
+          <price>42.00</price>
+          <quantity>2</quantity>
+          <total>84.00</total>
+        </item>
+        <item>
+          <product_id>100860</product_id>
+          <price>32.00</price>
+          <quantity>12</quantity>
+          <total>384.00</total>
+        </item>
+      </order>
+      <order id="605">
+        <order_date>1990-07-14</order_date>
+        <ship_date>1990-07-30</ship_date>
+        <total>8374.00</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>100</quantity>
+          <total>4500.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>500</quantity>
+          <total>1400.00</total>
+        </item>
+        <item>
+          <product_id>100890</product_id>
+          <price>58.00</price>
+          <quantity>5</quantity>
+          <total>290.00</total>
+        </item>
+        <item>
+          <product_id>101860</product_id>
+          <price>24.00</price>
+          <quantity>50</quantity>
+          <total>1200.00</total>
+        </item>
+        <item>
+          <product_id>101863</product_id>
+          <price>9.50</price>
+          <quantity>100</quantity>
+          <total>950.00</total>
+        </item>
+        <item>
+          <product_id>102130</product_id>
+          <price>3.40</price>
+          <quantity>10</quantity>
+          <total>34.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="107">
+      <name>WOMENS SPORTS</name>
+      <city>SUNNYVALE</city>
+      <state>CA</state>
+      <salesperson>7499</salesperson>
+      <comment>First sporting goods store geared exclusively towards women. Unusual promotional</comment>
+      <order id="615">
+        <order_date>1991-02-01</order_date>
+        <ship_date>1991-02-06</ship_date>
+        <total>710.00</total>
+        <item>
+          <product_id>100861</product_id>
+          <price>45.00</price>
+          <quantity>4</quantity>
+          <total>180.00</total>
+        </item>
+        <item>
+          <product_id>100870</product_id>
+          <price>2.80</price>
+          <quantity>100</quantity>
+          <total>280.00</total>
+        </item>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.00</price>
+          <quantity>50</quantity>
+          <total>250.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="108">
+      <name>NORTH WOODS HEALTH AND FITNESS SUPPLY CENTER</name>
+      <city>HIBBING</city>
+      <state>MN</state>
+      <salesperson>7844</salesperson>
+      <comment>      </comment>
+      <order id="613">
+        <order_date>1991-02-01</order_date>
+        <ship_date>1991-02-01</ship_date>
+        <total>6400.00</total>
+        <item>
+          <product_id>100871</product_id>
+          <price>5.60</price>
+          <quantity>100</quantity>
+          <total>560.00</total>
+        </item>
+        <item>
+          <product_id>101860</product_id>
+          <price>24.00</price>
+          <quantity>200</quantity>
+          <total>4800.00</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>4.00</price>
+          <quantity>150</quantity>
+          <total>600.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.20</price>
+          <quantity>200</quantity>
+          <total>440.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="201">
+      <name>STADIUM SPORTS</name>
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <salesperson>7557</salesperson>
+      <comment>Large general-purpose sports store with an affluent customer base.</comment>
+      <order id="503">
+        <order_date>1989-03-25</order_date>
+        <ship_date>1989-04-06</ship_date>
+        <total>1876.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>38.00</price>
+          <quantity>30</quantity>
+          <total>1140.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>23.60</price>
+          <quantity>10</quantity>
+          <total>236.00</total>
+        </item>
+        <item>
+          <product_id>104352</product_id>
+          <price>50.00</price>
+          <quantity>10</quantity>
+          <total>500.00</total>
+        </item>
+      </order>
+      <order id="518">
+        <order_date>1989-10-20</order_date>
+        <ship_date>1989-11-05</ship_date>
+        <total>2932.50</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>38.00</price>
+          <quantity>25</quantity>
+          <total>950.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>23.60</price>
+          <quantity>20</quantity>
+          <total>472.00</total>
+        </item>
+        <item>
+          <product_id>104360</product_id>
+          <price>36.00</price>
+          <quantity>20</quantity>
+          <total>720.00</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.25</price>
+          <quantity>170</quantity>
+          <total>722.50</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>20</quantity>
+          <total>68.00</total>
+        </item>
+      </order>
+      <order id="519">
+        <order_date>1989-10-20</order_date>
+        <ship_date>1989-11-05</ship_date>
+        <total>955.00</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.50</price>
+          <quantity>110</quantity>
+          <total>385.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>30</quantity>
+          <total>570.00</total>
+        </item>
+      </order>
+      <order id="517">
+        <order_date>1989-10-23</order_date>
+        <ship_date>1989-11-07</ship_date>
+        <total>784.00</total>
+        <item>
+          <product_id>104352</product_id>
+          <price>50.00</price>
+          <quantity>15</quantity>
+          <total>750.00</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>10</quantity>
+          <total>34.00</total>
+        </item>
+      </order>
+      <order id="520">
+        <order_date>1989-11-16</order_date>
+        <ship_date>1989-11-19</ship_date>
+        <total>341.60</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>4.00</price>
+          <quantity>10</quantity>
+          <total>40.00</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>3.77</price>
+          <quantity>80</quantity>
+          <total>301.60</total>
+        </item>
+      </order>
+      <order id="566">
+        <order_date>1991-06-09</order_date>
+        <ship_date>1991-06-12</ship_date>
+        <total>3389.20</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>23.75</price>
+          <quantity>40</quantity>
+          <total>950.00</total>
+        </item>
+        <item>
+          <product_id>103121</product_id>
+          <price>27.00</price>
+          <quantity>50</quantity>
+          <total>1350.00</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.77</price>
+          <quantity>60</quantity>
+          <total>226.20</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>3.90</price>
+          <quantity>170</quantity>
+          <total>663.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+      </order>
+      <order id="575">
+        <order_date>1991-10-04</order_date>
+        <ship_date>1991-10-17</ship_date>
+        <total>684.00</total>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>30</quantity>
+          <total>570.00</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.80</price>
+          <quantity>30</quantity>
+          <total>114.00</total>
+        </item>
+      </order>
+      <order id="574">
+        <order_date>1991-10-10</order_date>
+        <ship_date>1991-10-12</ship_date>
+        <total>1685.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>41.80</price>
+          <quantity>25</quantity>
+          <total>1045.00</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.20</price>
+          <quantity>200</quantity>
+          <total>640.00</total>
+        </item>
+      </order>
+      <order id="573">
+        <order_date>1991-10-10</order_date>
+        <ship_date>1991-10-12</ship_date>
+        <total>1627.00</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>22.50</price>
+          <quantity>50</quantity>
+          <total>1125.00</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.04</price>
+          <quantity>50</quantity>
+          <total>202.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+      <order id="576">
+        <order_date>1991-10-13</order_date>
+        <ship_date>1991-10-18</ship_date>
+        <total>2058.90</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>44.00</price>
+          <quantity>10</quantity>
+          <total>440.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>26.00</price>
+          <quantity>10</quantity>
+          <total>260.00</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.25</price>
+          <quantity>170</quantity>
+          <total>722.50</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.16</price>
+          <quantity>90</quantity>
+          <total>194.40</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.40</price>
+          <quantity>130</quantity>
+          <total>442.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="202">
+      <name>HOOPS</name>
+      <city>LEICESTER</city>
+      <state>MA</state>
+      <salesperson>7820</salesperson>
+      <comment>Specializes in basketball equipment.</comment>
+      <order id="502">
+        <order_date>1989-02-10</order_date>
+        <ship_date>1989-02-23</ship_date>
+        <total>500.00</total>
+        <item>
+          <product_id>104352</product_id>
+          <price>50.00</price>
+          <quantity>10</quantity>
+          <total>500.00</total>
+        </item>
+      </order>
+      <order id="511">
+        <order_date>1989-08-17</order_date>
+        <ship_date>1989-08-21</ship_date>
+        <total>647.00</total>
+        <item>
+          <product_id>104351</product_id>
+          <price>23.60</price>
+          <quantity>15</quantity>
+          <total>354.00</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.50</price>
+          <quantity>50</quantity>
+          <total>225.00</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>20</quantity>
+          <total>68.00</total>
+        </item>
+      </order>
+      <order id="524">
+        <order_date>1990-02-22</order_date>
+        <ship_date>1990-03-04</ship_date>
+        <total>1979.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>42.00</price>
+          <quantity>10</quantity>
+          <total>420.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>23.56</price>
+          <quantity>35</quantity>
+          <total>824.60</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.25</price>
+          <quantity>150</quantity>
+          <total>637.50</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.23</price>
+          <quantity>30</quantity>
+          <total>96.90</total>
+        </item>
+      </order>
+      <order id="539">
+        <order_date>1990-06-26</order_date>
+        <ship_date>1990-07-03</ship_date>
+        <total>1300.00</total>
+        <item>
+          <product_id>104351</product_id>
+          <price>26.00</price>
+          <quantity>20</quantity>
+          <total>520.00</total>
+        </item>
+        <item>
+          <product_id>104360</product_id>
+          <price>39.00</price>
+          <quantity>20</quantity>
+          <total>780.00</total>
+        </item>
+      </order>
+      <order id="540">
+        <order_date>1990-07-15</order_date>
+        <ship_date>1990-07-17</ship_date>
+        <total>861.20</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.98</price>
+          <quantity>40</quantity>
+          <total>159.20</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>3.90</price>
+          <quantity>180</quantity>
+          <total>702.00</total>
+        </item>
+      </order>
+      <order id="544">
+        <order_date>1990-09-11</order_date>
+        <ship_date>1990-09-15</ship_date>
+        <total>2358.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>44.00</price>
+          <quantity>15</quantity>
+          <total>660.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>26.00</price>
+          <quantity>15</quantity>
+          <total>390.00</total>
+        </item>
+        <item>
+          <product_id>104352</product_id>
+          <price>58.30</price>
+          <quantity>10</quantity>
+          <total>583.00</total>
+        </item>
+        <item>
+          <product_id>104361</product_id>
+          <price>50.00</price>
+          <quantity>10</quantity>
+          <total>500.00</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.50</price>
+          <quantity>50</quantity>
+          <total>225.00</total>
+        </item>
+      </order>
+      <order id="547">
+        <order_date>1990-10-16</order_date>
+        <ship_date>1990-10-27</ship_date>
+        <total>984.40</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.77</price>
+          <quantity>80</quantity>
+          <total>301.60</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.04</price>
+          <quantity>70</quantity>
+          <total>282.80</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>5</quantity>
+          <total>100.00</total>
+        </item>
+      </order>
+      <order id="567">
+        <order_date>1991-07-05</order_date>
+        <ship_date>1991-07-07</ship_date>
+        <total>200.00</total>
+        <item>
+          <product_id>103140</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+      </order>
+      <order id="570">
+        <order_date>1991-07-17</order_date>
+        <ship_date>1991-07-24</ship_date>
+        <total>663.60</total>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.04</price>
+          <quantity>90</quantity>
+          <total>363.60</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+      <order id="571">
+        <order_date>1991-08-02</order_date>
+        <ship_date>1991-08-12</ship_date>
+        <total>1095.60</total>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.04</price>
+          <quantity>70</quantity>
+          <total>282.80</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>25</quantity>
+          <total>475.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.40</price>
+          <quantity>15</quantity>
+          <total>51.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.16</price>
+          <quantity>80</quantity>
+          <total>172.80</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.80</price>
+          <quantity>30</quantity>
+          <total>114.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="203">
+      <name>REBOUND SPORTS</name>
+      <city>NEW YORK</city>
+      <state>NY</state>
+      <salesperson>7557</salesperson>
+      <comment>Follow up on the promotion proposal.</comment>
+      <order id="512">
+        <order_date>1989-08-28</order_date>
+        <ship_date>1989-09-13</ship_date>
+        <total>428.00</total>
+        <item>
+          <product_id>104360</product_id>
+          <price>36.00</price>
+          <quantity>10</quantity>
+          <total>360.00</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>20</quantity>
+          <total>68.00</total>
+        </item>
+      </order>
+      <order id="529">
+        <order_date>1990-04-02</order_date>
+        <ship_date>1990-04-05</ship_date>
+        <total>1264.70</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>39.89</price>
+          <quantity>30</quantity>
+          <total>1196.70</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>20</quantity>
+          <total>68.00</total>
+        </item>
+      </order>
+      <order id="532">
+        <order_date>1990-04-08</order_date>
+        <ship_date>1990-04-21</ship_date>
+        <total>1295.40</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>21.59</price>
+          <quantity>60</quantity>
+          <total>1295.40</total>
+        </item>
+      </order>
+      <order id="541">
+        <order_date>1990-08-08</order_date>
+        <ship_date>1990-08-18</ship_date>
+        <total>400.00</total>
+        <item>
+          <product_id>103140</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+      </order>
+      <order id="562">
+        <order_date>1991-05-04</order_date>
+        <ship_date>1991-05-19</ship_date>
+        <total>2044.50</total>
+        <item>
+          <product_id>104351</product_id>
+          <price>24.70</price>
+          <quantity>25</quantity>
+          <total>617.50</total>
+        </item>
+        <item>
+          <product_id>104352</product_id>
+          <price>58.30</price>
+          <quantity>15</quantity>
+          <total>874.50</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.25</price>
+          <quantity>130</quantity>
+          <total>552.50</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="204">
+      <name>THE POWER FORWARD</name>
+      <city>DALLAS</city>
+      <state>TX</state>
+      <salesperson>7560</salesperson>
+      <comment>Large floorspace.  Prefers maintaining large amounts of inventory on hand.</comment>
+      <order id="501">
+        <order_date>1989-01-06</order_date>
+        <ship_date>1989-01-11</ship_date>
+        <total>216.00</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.60</price>
+          <quantity>60</quantity>
+          <total>216.00</total>
+        </item>
+      </order>
+      <order id="504">
+        <order_date>1989-04-11</order_date>
+        <ship_date>1989-04-12</ship_date>
+        <total>1434.70</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>40.00</price>
+          <quantity>10</quantity>
+          <total>400.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>22.42</price>
+          <quantity>35</quantity>
+          <total>784.70</total>
+        </item>
+        <item>
+          <product_id>104352</product_id>
+          <price>50.00</price>
+          <quantity>5</quantity>
+          <total>250.00</total>
+        </item>
+      </order>
+      <order id="522">
+        <order_date>1990-01-07</order_date>
+        <ship_date>1990-01-10</ship_date>
+        <total>2578.80</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>21.59</price>
+          <quantity>80</quantity>
+          <total>1727.20</total>
+        </item>
+        <item>
+          <product_id>103121</product_id>
+          <price>28.80</price>
+          <quantity>10</quantity>
+          <total>288.00</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.04</price>
+          <quantity>90</quantity>
+          <total>363.60</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+      </order>
+      <order id="527">
+        <order_date>1990-02-27</order_date>
+        <ship_date>1990-03-14</ship_date>
+        <total>3054.40</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>21.59</price>
+          <quantity>60</quantity>
+          <total>1295.40</total>
+        </item>
+        <item>
+          <product_id>103121</product_id>
+          <price>27.35</price>
+          <quantity>40</quantity>
+          <total>1094.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>35</quantity>
+          <total>665.00</total>
+        </item>
+      </order>
+      <order id="535">
+        <order_date>1990-05-28</order_date>
+        <ship_date>1990-06-09</ship_date>
+        <total>810.00</total>
+        <item>
+          <product_id>104352</product_id>
+          <price>54.00</price>
+          <quantity>15</quantity>
+          <total>810.00</total>
+        </item>
+      </order>
+      <order id="537">
+        <order_date>1990-06-14</order_date>
+        <ship_date>1990-06-26</ship_date>
+        <total>672.90</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.60</price>
+          <quantity>160</quantity>
+          <total>576.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.23</price>
+          <quantity>30</quantity>
+          <total>96.90</total>
+        </item>
+      </order>
+      <order id="538">
+        <order_date>1990-06-23</order_date>
+        <ship_date>1990-06-26</ship_date>
+        <total>741.00</total>
+        <item>
+          <product_id>104351</product_id>
+          <price>24.70</price>
+          <quantity>30</quantity>
+          <total>741.00</total>
+        </item>
+      </order>
+      <order id="554">
+        <order_date>1991-02-18</order_date>
+        <ship_date>1991-02-22</ship_date>
+        <total>282.80</total>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.04</price>
+          <quantity>70</quantity>
+          <total>282.80</total>
+        </item>
+      </order>
+      <order id="563">
+        <order_date>1991-05-25</order_date>
+        <ship_date>1991-05-26</ship_date>
+        <total>889.00</total>
+        <item>
+          <product_id>104352</product_id>
+          <price>58.30</price>
+          <quantity>10</quantity>
+          <total>583.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.04</price>
+          <quantity>150</quantity>
+          <total>306.00</total>
+        </item>
+      </order>
+      <order id="564">
+        <order_date>1991-05-25</order_date>
+        <ship_date>1991-05-26</ship_date>
+        <total>898.80</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.77</price>
+          <quantity>80</quantity>
+          <total>301.60</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>3.90</price>
+          <quantity>120</quantity>
+          <total>468.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.23</price>
+          <quantity>40</quantity>
+          <total>129.20</total>
+        </item>
+      </order>
+      <order id="568">
+        <order_date>1991-07-13</order_date>
+        <ship_date>1991-07-21</ship_date>
+        <total>1217.40</total>
+        <item>
+          <product_id>104351</product_id>
+          <price>24.70</price>
+          <quantity>30</quantity>
+          <total>741.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.04</price>
+          <quantity>110</quantity>
+          <total>224.40</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.60</price>
+          <quantity>70</quantity>
+          <total>252.00</total>
+        </item>
+      </order>
+      <order id="578">
+        <order_date>1991-11-19</order_date>
+        <ship_date>1991-12-04</ship_date>
+        <total>2275.60</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>41.80</price>
+          <quantity>40</quantity>
+          <total>1672.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.04</price>
+          <quantity>190</quantity>
+          <total>387.60</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.60</price>
+          <quantity>60</quantity>
+          <total>216.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="205">
+      <name>POINT GUARD</name>
+      <city>YONKERS</city>
+      <state>NY</state>
+      <salesperson>7557</salesperson>
+      <comment>Tremendous potential for an exclusive agreement.</comment>
+      <order id="548">
+        <order_date>1990-11-26</order_date>
+        <ship_date>1990-12-12</ship_date>
+        <total>666.90</total>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>30</quantity>
+          <total>570.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.23</price>
+          <quantity>30</quantity>
+          <total>96.90</total>
+        </item>
+      </order>
+      <order id="550">
+        <order_date>1991-01-27</order_date>
+        <ship_date>1991-02-07</ship_date>
+        <total>2356.00</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>22.50</price>
+          <quantity>60</quantity>
+          <total>1350.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>45</quantity>
+          <total>855.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>5</quantity>
+          <total>100.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.40</price>
+          <quantity>15</quantity>
+          <total>51.00</total>
+        </item>
+      </order>
+      <order id="569">
+        <order_date>1991-07-16</order_date>
+        <ship_date>1991-07-23</ship_date>
+        <total>2073.00</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>22.50</price>
+          <quantity>50</quantity>
+          <total>1125.00</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.60</price>
+          <quantity>180</quantity>
+          <total>648.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="206">
+      <name>THE COLISEUM</name>
+      <city>SCARSDALE</city>
+      <state>NY</state>
+      <salesperson>7557</salesperson>
+      <comment>Contact rep. about new product lines.</comment>
+      <order id="505">
+        <order_date>1989-04-07</order_date>
+        <ship_date>1989-04-22</ship_date>
+        <total>650.00</total>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.50</price>
+          <quantity>100</quantity>
+          <total>350.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+      <order id="533">
+        <order_date>1990-04-28</order_date>
+        <ship_date>1990-05-02</ship_date>
+        <total>1122.10</total>
+        <item>
+          <product_id>103121</product_id>
+          <price>27.35</price>
+          <quantity>30</quantity>
+          <total>820.50</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.77</price>
+          <quantity>80</quantity>
+          <total>301.60</total>
+        </item>
+      </order>
+      <order id="534">
+        <order_date>1990-05-11</order_date>
+        <ship_date>1990-05-15</ship_date>
+        <total>420.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>42.00</price>
+          <quantity>10</quantity>
+          <total>420.00</total>
+        </item>
+      </order>
+      <order id="536">
+        <order_date>1990-05-21</order_date>
+        <ship_date>1990-06-06</ship_date>
+        <total>2135.60</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>39.89</price>
+          <quantity>40</quantity>
+          <total>1595.60</total>
+        </item>
+        <item>
+          <product_id>104352</product_id>
+          <price>54.00</price>
+          <quantity>10</quantity>
+          <total>540.00</total>
+        </item>
+      </order>
+      <order id="572">
+        <order_date>1991-08-19</order_date>
+        <ship_date>1991-08-24</ship_date>
+        <total>1200.50</total>
+        <item>
+          <product_id>104351</product_id>
+          <price>24.70</price>
+          <quantity>25</quantity>
+          <total>617.50</total>
+        </item>
+        <item>
+          <product_id>104352</product_id>
+          <price>58.30</price>
+          <quantity>10</quantity>
+          <total>583.00</total>
+        </item>
+      </order>
+      <order id="577">
+        <order_date>1991-10-06</order_date>
+        <ship_date>1991-10-20</ship_date>
+        <total>1265.75</total>
+        <item>
+          <product_id>103121</product_id>
+          <price>30.00</price>
+          <quantity>20</quantity>
+          <total>600.00</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>3.90</price>
+          <quantity>150</quantity>
+          <total>585.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.23</price>
+          <quantity>25</quantity>
+          <total>80.75</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="207">
+      <name>FAST BREAK</name>
+      <city>CONCORD</city>
+      <state>MA</state>
+      <salesperson>7820</salesperson>
+      <comment>Customer requires written price quotes before making purchase requisitions.</comment>
+      <order id="514">
+        <order_date>1989-09-05</order_date>
+        <ship_date>1989-09-16</ship_date>
+        <total>1140.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>38.00</price>
+          <quantity>30</quantity>
+          <total>1140.00</total>
+        </item>
+      </order>
+      <order id="521">
+        <order_date>1989-11-20</order_date>
+        <ship_date>1989-11-23</ship_date>
+        <total>896.90</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>40.00</price>
+          <quantity>20</quantity>
+          <total>800.00</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.23</price>
+          <quantity>30</quantity>
+          <total>96.90</total>
+        </item>
+      </order>
+      <order id="561">
+        <order_date>1991-04-20</order_date>
+        <ship_date>1991-05-07</ship_date>
+        <total>2558.30</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>22.50</price>
+          <quantity>80</quantity>
+          <total>1800.00</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.77</price>
+          <quantity>70</quantity>
+          <total>263.90</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.16</price>
+          <quantity>90</quantity>
+          <total>194.40</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="208">
+      <name>AL AND BOB'S SPORTS</name>
+      <city>AUSTIN</city>
+      <state>TX</state>
+      <salesperson>7560</salesperson>
+      <comment>Very personal purchasing agents -- Sharon and Scott.</comment>
+      <order id="506">
+        <order_date>1989-04-27</order_date>
+        <ship_date>1989-05-10</ship_date>
+        <total>2600.40</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>20.88</price>
+          <quantity>80</quantity>
+          <total>1670.40</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.50</price>
+          <quantity>180</quantity>
+          <total>630.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>15</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+      <order id="508">
+        <order_date>1989-05-26</order_date>
+        <ship_date>1989-06-08</ship_date>
+        <total>1080.00</total>
+        <item>
+          <product_id>104360</product_id>
+          <price>36.00</price>
+          <quantity>20</quantity>
+          <total>720.00</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.50</price>
+          <quantity>80</quantity>
+          <total>360.00</total>
+        </item>
+      </order>
+      <order id="510">
+        <order_date>1989-07-18</order_date>
+        <ship_date>1989-07-21</ship_date>
+        <total>1336.60</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>20.88</price>
+          <quantity>60</quantity>
+          <total>1252.80</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>4.19</price>
+          <quantity>20</quantity>
+          <total>83.80</total>
+        </item>
+      </order>
+      <order id="513">
+        <order_date>1989-09-06</order_date>
+        <ship_date>1989-09-14</ship_date>
+        <total>1497.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>40.00</price>
+          <quantity>15</quantity>
+          <total>600.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>23.60</price>
+          <quantity>20</quantity>
+          <total>472.00</total>
+        </item>
+        <item>
+          <product_id>104362</product_id>
+          <price>4.25</price>
+          <quantity>100</quantity>
+          <total>425.00</total>
+        </item>
+      </order>
+      <order id="515">
+        <order_date>1989-09-19</order_date>
+        <ship_date>1989-09-26</ship_date>
+        <total>1428.50</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>40.00</price>
+          <quantity>20</quantity>
+          <total>800.00</total>
+        </item>
+        <item>
+          <product_id>104351</product_id>
+          <price>22.42</price>
+          <quantity>25</quantity>
+          <total>560.50</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>20</quantity>
+          <total>68.00</total>
+        </item>
+      </order>
+      <order id="530">
+        <order_date>1990-04-03</order_date>
+        <ship_date>1990-04-07</ship_date>
+        <total>3026.50</total>
+        <item>
+          <product_id>103121</product_id>
+          <price>25.91</price>
+          <quantity>50</quantity>
+          <total>1295.50</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.60</price>
+          <quantity>200</quantity>
+          <total>720.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>40</quantity>
+          <total>760.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+        <item>
+          <product_id>102132</product_id>
+          <price>3.40</price>
+          <quantity>15</quantity>
+          <total>51.00</total>
+        </item>
+      </order>
+      <order id="542">
+        <order_date>1990-08-11</order_date>
+        <ship_date>1990-08-23</ship_date>
+        <total>2409.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>41.80</price>
+          <quantity>25</quantity>
+          <total>1045.00</total>
+        </item>
+        <item>
+          <product_id>104360</product_id>
+          <price>39.00</price>
+          <quantity>20</quantity>
+          <total>780.00</total>
+        </item>
+        <item>
+          <product_id>104361</product_id>
+          <price>50.00</price>
+          <quantity>11</quantity>
+          <total>550.00</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>10</quantity>
+          <total>34.00</total>
+        </item>
+      </order>
+      <order id="545">
+        <order_date>1990-10-06</order_date>
+        <ship_date>1990-10-13</ship_date>
+        <total>475.00</total>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>25</quantity>
+          <total>475.00</total>
+        </item>
+      </order>
+      <order id="546">
+        <order_date>1990-10-17</order_date>
+        <ship_date>1990-10-23</ship_date>
+        <total>3663.00</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>22.50</price>
+          <quantity>50</quantity>
+          <total>1125.00</total>
+        </item>
+        <item>
+          <product_id>103121</product_id>
+          <price>30.00</price>
+          <quantity>20</quantity>
+          <total>600.00</total>
+        </item>
+        <item>
+          <product_id>103130</product_id>
+          <price>3.60</price>
+          <quantity>120</quantity>
+          <total>432.00</total>
+        </item>
+        <item>
+          <product_id>103131</product_id>
+          <price>3.90</price>
+          <quantity>140</quantity>
+          <total>546.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>40</quantity>
+          <total>760.00</total>
+        </item>
+        <item>
+          <product_id>103141</product_id>
+          <price>20.00</price>
+          <quantity>10</quantity>
+          <total>200.00</total>
+        </item>
+      </order>
+      <order id="551">
+        <order_date>1991-01-22</order_date>
+        <ship_date>1991-02-06</ship_date>
+        <total>1142.00</total>
+        <item>
+          <product_id>104350</product_id>
+          <price>44.00</price>
+          <quantity>10</quantity>
+          <total>440.00</total>
+        </item>
+        <item>
+          <product_id>104361</product_id>
+          <price>50.00</price>
+          <quantity>5</quantity>
+          <total>250.00</total>
+        </item>
+        <item>
+          <product_id>102134</product_id>
+          <price>3.40</price>
+          <quantity>20</quantity>
+          <total>68.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>1.92</price>
+          <quantity>200</quantity>
+          <total>384.00</total>
+        </item>
+      </order>
+      <order id="557">
+        <order_date>1991-03-08</order_date>
+        <ship_date>1991-03-12</ship_date>
+        <total>2461.80</total>
+        <item>
+          <product_id>103120</product_id>
+          <price>23.75</price>
+          <quantity>40</quantity>
+          <total>950.00</total>
+        </item>
+        <item>
+          <product_id>103121</product_id>
+          <price>30.00</price>
+          <quantity>10</quantity>
+          <total>300.00</total>
+        </item>
+        <item>
+          <product_id>103140</product_id>
+          <price>19.00</price>
+          <quantity>35</quantity>
+          <total>665.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.16</price>
+          <quantity>80</quantity>
+          <total>172.80</total>
+        </item>
+        <item>
+          <product_id>200380</product_id>
+          <price>3.40</price>
+          <quantity>110</quantity>
+          <total>374.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="211">
+      <name>AT BAT</name>
+      <city>BROOKLINE</city>
+      <state>MA</state>
+      <salesperson>7820</salesperson>
+      <comment>Have an open purchase order for $3000.  Ship immediately on request.</comment>
+    </customer>
+    <customer id="212">
+      <name>ALL SPORT</name>
+      <city>BROOKLYN</city>
+      <state>NY</state>
+      <salesperson>7600</salesperson>
+      <comment>Pursue a contract -- possible candidate for volume purchasing agreements.</comment>
+    </customer>
+    <customer id="213">
+      <name>GOOD SPORT</name>
+      <city>SUNNYSIDE</city>
+      <state>NY</state>
+      <salesperson>7600</salesperson>
+      <comment>May be moving to a larger location.</comment>
+    </customer>
+    <customer id="214">
+      <name>AL'S PRO SHOP</name>
+      <city>SPRING</city>
+      <state>TX</state>
+      <salesperson>7564</salesperson>
+      <comment>Target market is serious athletes.</comment>
+    </customer>
+    <customer id="215">
+      <name>BOB'S FAMILY SPORTS</name>
+      <city>HOUSTON</city>
+      <state>TX</state>
+      <salesperson>7654</salesperson>
+      <comment>Target market is casual and weekend athletes.  Offers a large selection.</comment>
+    </customer>
+    <customer id="216">
+      <name>THE ALL AMERICAN</name>
+      <city>CHELSEA</city>
+      <state>MA</state>
+      <salesperson>7820</salesperson>
+      <comment>Customer prefers to be called between 10 and 12.</comment>
+    </customer>
+    <customer id="217">
+      <name>HIT, THROW, AND RUN</name>
+      <city>GRAPEVINE</city>
+      <state>TX</state>
+      <salesperson>7564</salesperson>
+      <comment>General purpose sports store.</comment>
+    </customer>
+    <customer id="218">
+      <name>THE OUTFIELD</name>
+      <city>FLUSHING</city>
+      <state>NY</state>
+      <salesperson>7820</salesperson>
+      <comment>Store does not open until 11am and does not have an answering service.</comment>
+    </customer>
+    <customer id="221">
+      <name>WHEELS AND DEALS</name>
+      <city>HOUSTON</city>
+      <state>TX</state>
+      <salesperson>7789</salesperson>
+      <comment>Discount bicycle and sporting good store.</comment>
+      <order id="526">
+        <order_date>1990-03-04</order_date>
+        <ship_date>1990-03-07</ship_date>
+        <total>7700.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>32.00</price>
+          <quantity>100</quantity>
+          <total>3200.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>9.00</price>
+          <quantity>500</quantity>
+          <total>4500.00</total>
+        </item>
+      </order>
+      <order id="543">
+        <order_date>1990-09-04</order_date>
+        <ship_date>1990-09-07</ship_date>
+        <total>8400.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>34.00</price>
+          <quantity>100</quantity>
+          <total>3400.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>10.00</price>
+          <quantity>500</quantity>
+          <total>5000.00</total>
+        </item>
+      </order>
+      <order id="555">
+        <order_date>1991-03-04</order_date>
+        <ship_date>1991-03-07</ship_date>
+        <total>8540.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>34.00</price>
+          <quantity>100</quantity>
+          <total>3400.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>10.00</price>
+          <quantity>500</quantity>
+          <total>5000.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>2.80</price>
+          <quantity>50</quantity>
+          <total>140.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="222">
+      <name>JUST BIKES</name>
+      <city>DALLAS</city>
+      <state>TX</state>
+      <salesperson>7789</salesperson>
+      <comment>Exclusive bicycle dealer.</comment>
+      <order id="559">
+        <order_date>1990-11-16</order_date>
+        <ship_date>1991-04-23</ship_date>
+        <total>387.20</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>40.00</price>
+          <quantity>5</quantity>
+          <total>200.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>15.00</price>
+          <quantity>5</quantity>
+          <total>75.00</total>
+        </item>
+        <item>
+          <product_id>105127</product_id>
+          <price>6.00</price>
+          <quantity>5</quantity>
+          <total>30.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.40</price>
+          <quantity>3</quantity>
+          <total>10.20</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>30</quantity>
+          <total>72.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="223">
+      <name>VELO SPORTS</name>
+      <city>MALDEN</city>
+      <state>MA</state>
+      <salesperson>7820</salesperson>
+      <comment>Clerk answers all phone lines.  Ask for Mike.</comment>
+      <order id="552">
+        <order_date>1991-02-02</order_date>
+        <ship_date>1991-02-07</ship_date>
+        <total>555.80</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>40.00</price>
+          <quantity>10</quantity>
+          <total>400.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>15.00</price>
+          <quantity>10</quantity>
+          <total>150.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.40</price>
+          <quantity>1</quantity>
+          <total>3.40</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>1</quantity>
+          <total>2.40</total>
+        </item>
+      </order>
+      <order id="556">
+        <order_date>1991-03-10</order_date>
+        <ship_date>1991-03-12</ship_date>
+        <total>85.00</total>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.40</price>
+          <quantity>25</quantity>
+          <total>85.00</total>
+        </item>
+      </order>
+      <order id="560">
+        <order_date>1991-04-25</order_date>
+        <ship_date>1991-04-25</ship_date>
+        <total>72.00</total>
+        <item>
+          <product_id>200376</product_id>
+          <price>2.40</price>
+          <quantity>30</quantity>
+          <total>72.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="224">
+      <name>JOE'S BIKE SHOP</name>
+      <city>GRAND PRARIE</city>
+      <state>TX</state>
+      <salesperson>7789</salesperson>
+      <comment>Call Joe to make sure last shipment was complete.</comment>
+      <order id="528">
+        <order_date>1990-03-24</order_date>
+        <ship_date>1990-03-24</ship_date>
+        <total>3770.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>37.70</price>
+          <quantity>100</quantity>
+          <total>3770.00</total>
+        </item>
+      </order>
+      <order id="531">
+        <order_date>1990-03-31</order_date>
+        <ship_date>1990-04-02</ship_date>
+        <total>1400.00</total>
+        <item>
+          <product_id>105124</product_id>
+          <price>11.00</price>
+          <quantity>100</quantity>
+          <total>1100.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.00</price>
+          <quantity>100</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+      <order id="558">
+        <order_date>1991-03-31</order_date>
+        <ship_date>1991-04-02</ship_date>
+        <total>1700.00</total>
+        <item>
+          <product_id>105124</product_id>
+          <price>14.00</price>
+          <quantity>100</quantity>
+          <total>1400.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.00</price>
+          <quantity>100</quantity>
+          <total>300.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="225">
+      <name>BOB'S SWIM, CYCLE, AND RUN</name>
+      <city>IRVING</city>
+      <state>TX</state>
+      <salesperson>7789</salesperson>
+      <comment>Store catering to triathletes.</comment>
+      <order id="525">
+        <order_date>1990-02-28</order_date>
+        <ship_date>1990-03-03</ship_date>
+        <total>377.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>37.70</price>
+          <quantity>10</quantity>
+          <total>377.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="226">
+      <name>CENTURY SHOP</name>
+      <city>HUNTINGTON</city>
+      <state>NY</state>
+      <salesperson>7555</salesperson>
+      <comment>Customer in the midst of a cost-cutting program.</comment>
+      <order id="509">
+        <order_date>1989-06-04</order_date>
+        <ship_date>1989-06-10</ship_date>
+        <total>1174.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>35.00</price>
+          <quantity>30</quantity>
+          <total>1050.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>9.00</price>
+          <quantity>10</quantity>
+          <total>90.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.40</price>
+          <quantity>10</quantity>
+          <total>34.00</total>
+        </item>
+      </order>
+      <order id="523">
+        <order_date>1990-02-13</order_date>
+        <ship_date>1990-02-13</ship_date>
+        <total>1165.00</total>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.40</price>
+          <quantity>10</quantity>
+          <total>34.00</total>
+        </item>
+        <item>
+          <product_id>105123</product_id>
+          <price>37.70</price>
+          <quantity>30</quantity>
+          <total>1131.00</total>
+        </item>
+      </order>
+      <order id="549">
+        <order_date>1990-12-27</order_date>
+        <ship_date>1991-01-14</ship_date>
+        <total>1620.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>38.00</price>
+          <quantity>5</quantity>
+          <total>190.00</total>
+        </item>
+        <item>
+          <product_id>105127</product_id>
+          <price>6.00</price>
+          <quantity>30</quantity>
+          <total>180.00</total>
+        </item>
+        <item>
+          <product_id>105125</product_id>
+          <price>3.00</price>
+          <quantity>200</quantity>
+          <total>600.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>13.00</price>
+          <quantity>50</quantity>
+          <total>650.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="227">
+      <name>THE TOUR</name>
+      <city>SOMERVILLE</city>
+      <state>MA</state>
+      <salesperson>7820</salesperson>
+      <comment>Customer referred to us by The All American.</comment>
+      <order id="565">
+        <order_date>1991-06-01</order_date>
+        <ship_date>1991-06-03</ship_date>
+        <total>4900.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>37.00</price>
+          <quantity>100</quantity>
+          <total>3700.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>12.00</price>
+          <quantity>100</quantity>
+          <total>1200.00</total>
+        </item>
+      </order>
+    </customer>
+    <customer id="228">
+      <name>FITNESS FIRST</name>
+      <city>JACKSON HEIGHTS</city>
+      <state>NY</state>
+      <salesperson>7555</salesperson>
+      <comment>Recently acquired another sporting goods store.  Expect higher volume in the fut</comment>
+      <order id="507">
+        <order_date>1989-05-26</order_date>
+        <ship_date>1989-05-27</ship_date>
+        <total>886.00</total>
+        <item>
+          <product_id>105123</product_id>
+          <price>35.30</price>
+          <quantity>20</quantity>
+          <total>706.00</total>
+        </item>
+        <item>
+          <product_id>105124</product_id>
+          <price>9.00</price>
+          <quantity>20</quantity>
+          <total>180.00</total>
+        </item>
+      </order>
+      <order id="516">
+        <order_date>1989-09-30</order_date>
+        <ship_date>1989-10-03</ship_date>
+        <total>1815.00</total>
+        <item>
+          <product_id>105124</product_id>
+          <price>9.00</price>
+          <quantity>60</quantity>
+          <total>540.00</total>
+        </item>
+        <item>
+          <product_id>102136</product_id>
+          <price>3.20</price>
+          <quantity>250</quantity>
+          <total>800.00</total>
+        </item>
+        <item>
+          <product_id>105125</product_id>
+          <price>1.90</price>
+          <quantity>250</quantity>
+          <total>475.00</total>
+        </item>
+      </order>
+      <order id="553">
+        <order_date>1991-02-02</order_date>
+        <ship_date>1991-02-13</ship_date>
+        <total>4400.00</total>
+        <item>
+          <product_id>105127</product_id>
+          <price>6.00</price>
+          <quantity>500</quantity>
+          <total>3000.00</total>
+        </item>
+        <item>
+          <product_id>200376</product_id>
+          <price>1.75</price>
+          <quantity>800</quantity>
+          <total>1400.00</total>
+        </item>
+      </order>
+    </customer>
+  </customers>
+  <products>
+    <product id="100860">
+      <description>ACE TENNIS RACKET I</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>30.00</list>
+        <min>24.00</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>32.00</list>
+        <min>25.60</min>
+      </price>
+      <price start="1990-06-01">
+        <list>35.00</list>
+        <min>28.00</min>
+      </price>
+    </product>
+    <product id="100861">
+      <description>ACE TENNIS RACKET II</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>39.00</list>
+        <min>31.20</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>42.00</list>
+        <min>33.60</min>
+      </price>
+      <price start="1990-06-01">
+        <list>45.00</list>
+        <min>36.00</min>
+      </price>
+    </product>
+    <product id="100870">
+      <description>ACE TENNIS BALLS-3 PACK</description>
+      <price start="1989-01-01" end="1989-12-01">
+        <list>2.40</list>
+        <min>1.90</min>
+      </price>
+      <price start="1990-01-01">
+        <list>2.80</list>
+        <min>2.40</min>
+      </price>
+    </product>
+    <product id="100871">
+      <description>ACE TENNIS BALLS-6 PACK</description>
+      <price start="1989-01-01" end="1989-12-01">
+        <list>4.80</list>
+        <min>3.20</min>
+      </price>
+      <price start="1990-01-01">
+        <list>5.60</list>
+        <min>4.80</min>
+      </price>
+    </product>
+    <product id="100890">
+      <description>ACE TENNIS NET</description>
+      <price start="1988-06-01" end="1988-12-31">
+        <list>54.00</list>
+        <min>40.50</min>
+      </price>
+      <price start="1989-01-01">
+        <list>58.00</list>
+        <min>46.40</min>
+      </price>
+    </product>
+    <product id="101860">
+      <description>SP TENNIS RACKET</description>
+      <price start="1989-02-15">
+        <list>24.00</list>
+        <min>18.00</min>
+      </price>
+    </product>
+    <product id="101863">
+      <description>SP JUNIOR RACKET</description>
+      <price start="1989-02-15">
+        <list>12.50</list>
+        <min>9.40</min>
+      </price>
+    </product>
+    <product id="102130">
+      <description>RH: "GUIDE TO TENNIS"</description>
+      <price start="1989-08-18">
+        <list>3.40</list>
+        <min>2.80</min>
+      </price>
+    </product>
+    <product id="102132">
+      <description>RH: "GUIDE TO SOFTBALL"</description>
+      <price start="1989-08-18">
+        <list>3.40</list>
+        <min>2.80</min>
+      </price>
+    </product>
+    <product id="102134">
+      <description>RH: "GUIDE TO BASKETBALL"</description>
+      <price start="1989-08-18">
+        <list>3.40</list>
+        <min>2.80</min>
+      </price>
+    </product>
+    <product id="102136">
+      <description>RH: "GUIDE TO CYCLING"</description>
+      <price start="1989-08-18">
+        <list>3.40</list>
+        <min>2.80</min>
+      </price>
+    </product>
+    <product id="103120">
+      <description>WIFF SOFTBALL BAT I</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>23.20</list>
+        <min>18.60</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>24.00</list>
+        <min>19.20</min>
+      </price>
+      <price start="1990-06-01">
+        <list>25.00</list>
+        <min>20.00</min>
+      </price>
+    </product>
+    <product id="103121">
+      <description>WIFF SOFTBALL BAT II</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>27.80</list>
+        <min>22.30</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>28.80</list>
+        <min>23.00</min>
+      </price>
+      <price start="1990-06-01">
+        <list>30.00</list>
+        <min>24.00</min>
+      </price>
+    </product>
+    <product id="103130">
+      <description>WIFF SOFTBALL, SMALL</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>4.00</list>
+        <min>3.50</min>
+      </price>
+      <price start="1990-01-01">
+        <list>4.20</list>
+        <min>3.60</min>
+      </price>
+    </product>
+    <product id="103131">
+      <description>WIFF SOFTBALL, LARGE</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>4.20</list>
+        <min>3.60</min>
+      </price>
+      <price start="1990-01-01">
+        <list>4.50</list>
+        <min>3.90</min>
+      </price>
+    </product>
+    <product id="103140">
+      <description>WIFF SOFTBALL MITT (LH)</description>
+      <price start="1989-02-15">
+        <list>20.00</list>
+        <min>15.00</min>
+      </price>
+    </product>
+    <product id="103141">
+      <description>WIFF SOFTBALL MITT (RH)</description>
+      <price start="1989-02-15">
+        <list>20.00</list>
+        <min>15.00</min>
+      </price>
+    </product>
+    <product id="104350">
+      <description>DUNK BASKETBALL INDOOR</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>40.00</list>
+        <min>32.00</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>42.00</list>
+        <min>33.60</min>
+      </price>
+      <price start="1990-06-01">
+        <list>44.00</list>
+        <min>35.30</min>
+      </price>
+    </product>
+    <product id="104351">
+      <description>DUNK BASKETBALL OUTDOOR</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>23.60</list>
+        <min>18.90</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>24.80</list>
+        <min>19.80</min>
+      </price>
+      <price start="1990-06-01">
+        <list>26.00</list>
+        <min>20.80</min>
+      </price>
+    </product>
+    <product id="104352">
+      <description>DUNK BASKETBALL PROFESSIONAL</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>50.00</list>
+        <min>35.00</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>54.00</list>
+        <min>37.80</min>
+      </price>
+      <price start="1990-06-01">
+        <list>58.30</list>
+        <min>40.80</min>
+      </price>
+    </product>
+    <product id="104360">
+      <description>DUNK HOOP</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>36.00</list>
+        <min>29.50</min>
+      </price>
+      <price start="1990-01-01">
+        <list>39.00</list>
+        <min>32.00</min>
+      </price>
+    </product>
+    <product id="104361">
+      <description>DUNK HOOP W/FIBERGLASS BOARD</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>47.00</list>
+        <min>33.00</min>
+      </price>
+      <price start="1990-01-01">
+        <list>50.00</list>
+        <min>35.00</min>
+      </price>
+    </product>
+    <product id="104362">
+      <description>DUNK NETS - RAINBOW</description>
+      <price start="1989-02-15">
+        <list>5.00</list>
+        <min>4.00</min>
+      </price>
+    </product>
+    <product id="105123">
+      <description>YELLOW JERSEY BICYCLE HELMET</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>36.30</list>
+        <min>29.00</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>37.70</list>
+        <min>32.00</min>
+      </price>
+      <price start="1990-06-01">
+        <list>40.00</list>
+        <min>34.00</min>
+      </price>
+    </product>
+    <product id="105124">
+      <description>YELLOW JERSEY BICYCLE GLOVES</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>10.00</list>
+        <min>7.60</min>
+      </price>
+      <price start="1990-01-01" end="1990-05-31">
+        <list>12.00</list>
+        <min>9.00</min>
+      </price>
+      <price start="1990-06-01">
+        <list>15.00</list>
+        <min>10.00</min>
+      </price>
+    </product>
+    <product id="105125">
+      <description>YELLOW JERSEY WATER BOTTLE</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>2.00</list>
+        <min>1.70</min>
+      </price>
+      <price start="1990-01-01">
+        <list>3.00</list>
+        <min>2.60</min>
+      </price>
+    </product>
+    <product id="105126">
+      <description>YELLOW JERSEY BOTTLE CAGE</description>
+      <price start="1989-01-01" end="1989-12-31">
+        <list>5.00</list>
+        <min>4.30</min>
+      </price>
+      <price start="1990-01-01">
+        <list>6.00</list>
+        <min>5.00</min>
+      </price>
+    </product>
+    <product id="105127">
+      <description>YELLOW JERSEY FRAME PUMP</description>
+      <price start="1990-11-15">
+        <list>6.00</list>
+        <min>5.00</min>
+      </price>
+    </product>
+    <product id="105128">
+      <description>YELLOW JERSEY SADDLE PACK</description>
+      <price start="1990-11-15">
+        <list>10.00</list>
+        <min>8.00</min>
+      </price>
+    </product>
+    <product id="200376">
+      <description>SB ENERGY BAR-6 PACK</description>
+      <price start="1990-11-15">
+        <list>2.40</list>
+        <min>1.75</min>
+      </price>
+    </product>
+    <product id="200380">
+      <description>SB VITA SNACK-6 PACK</description>
+      <price start="1990-11-15">
+        <list>4.00</list>
+        <min>3.20</min>
+      </price>
+    </product>
+  </products>
+</king_corp>

@@ -1,0 +1,3 @@
+2023-08-10 10:41:06,989 __main__ INFO >>> -----Nachalo raboty
+2023-08-10 10:41:06,990 __main__ ERROR >>> Oshibka v rabote prilozhenia:Test oshibok
+2023-08-10 10:41:06,990 __main__ INFO >>> ------Okonchanie raboty
